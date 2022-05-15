@@ -10,7 +10,27 @@
 
 <body>
     <h1>this is test 2</h1>
+
+
+    <button type="button" class="btn btn-lg btn-info">button</button>
+
     <script src="./1.js"></script>
+
+    <div class="input-group">
+        <div class="input-group-addon">$</div>
+        <span>账号:</span><input type="text" class="form-control username eee" value="" id="exampleInputAmount"
+            placeholder="请输入账号">
+        <span>账号:</span><input type="text" class="form-control passwoorld" id="exampleInputAmount" placeholder="请输入密码">
+    </div>
+    <script>
+        let h1 = document.querySelector('h1')
+        h1.addEventListener('click', function () {
+            this.style.backgroundColor = 'red'
+        });
+
+        let username = document.querySelector('.eee');
+        console.log(username);
+    </script>
 </body>
 
 </html>
